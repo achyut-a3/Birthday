@@ -2,7 +2,9 @@
     display: flex;
     justify-content: center;
     background-color: whitesmoke;
-    height: 100%;
+   
+    min-height: 100vh;
+    align-items: center;
 
 
 }
@@ -12,7 +14,7 @@
   border-color: aqua;
 width: 40%;
 border-radius: 15px;
-margin-top: 100px;
+margin-top: 80px;
 padding: 10px 20px;
 
 
@@ -36,12 +38,19 @@ img{
     letter-spacing: 1px;
 }
 button{
-    width:100%
-    
+    width:100%;
+    background-color: rgb(195, 102, 195);
+      height:20px;
+      padding:5.5px;
+     text-align: center;
+     margin-bottom: 10px;
+     border: transparent;
+     cursor: pointer;
+     border-radius: 5.5px;
+     color: white;
+     letter-spacing: 3px;
+     text-transform: uppercase;
 }
-.btn{
-    background-color:rgb(232, 93, 232);
-}
-.btn:hover{
+button:hover{
     background-color:rgb(170, 17, 170) ;
 }
