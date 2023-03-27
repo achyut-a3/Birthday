@@ -1,0 +1,39 @@
+*{margin:0;
+padding:0;
+}
+.content1{
+    width:75%;
+    text-align: center;
+    float:left;
+    height:100Vh;
+    
+    background-color:white;
+}
+.content2{
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    float: right;
+    margin-top:100px ;
+}
+
+.pp{
+    margin-top: 75px;
+    align-content: flex-start;
+
+}
+
+
+.nav{
+    align-items: start;
+}
+
+body{
+    background-image:url("https://img.freepik.com/free-photo/grey-gradient-abstract_176532-7758.jpg"); 
+ 
+}
+.but{
+   
+   margin-left: 150px;
+}

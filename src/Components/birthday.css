@@ -1,0 +1,47 @@
+.main {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 100%;
+
+
+}
+.navgation{
+ background: white;
+  border: 1px solid;
+  border-color: aqua;
+width: 40%;
+border-radius: 15px;
+margin-top: 100px;
+padding: 10px 20px;
+
+
+
+}
+.r1{
+    display: flex;
+    column-gap: 20px;
+    grid-template-columns: auto 1fr;
+    margin-bottom: 20px;
+    
+}
+img{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+.info{
+    margin-bottom: 20px;
+   line-height: 10px;
+    letter-spacing: 1px;
+}
+button{
+    width:100%
+    
+}
+.btn{
+    background-color:rgb(232, 93, 232);
+}
+.btn:hover{
+    background-color:rgb(170, 17, 170) ;
+}
