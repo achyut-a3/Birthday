@@ -48,7 +48,7 @@ button{
      cursor: pointer;
      border-radius: 5.5px;
      color: white;
-     letter-spacing: 3px;
+     letter-spacing: px;
      text-transform: uppercase;
 }
 button:hover{

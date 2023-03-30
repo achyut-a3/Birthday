@@ -1,10 +1,10 @@
 import React from "react";
-import Birthday from "./Components/Birthday";
+import AppRoutes from "./Pages/Approutes/AppRoutes";
 
 const App = () => {
   return (
     <>
-      <Birthday />
+      <AppRoutes />
     </>
   );
 };

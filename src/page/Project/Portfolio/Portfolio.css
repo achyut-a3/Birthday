@@ -1,0 +1,168 @@
+
+.main{
+    display: flex;
+    background: purple;
+ height: 100%;
+ padding: 50px 40px;
+ 
+}
+.box{
+   width: 100%;
+    border-radius: 20px;
+
+ background-color: rgb(249, 246, 241); 
+justify-content: space-between;
+
+
+ 
+}
+.navsection{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.image1{
+    float:left; 
+   margin-left:30px ;
+padding: 0;}
+.nav{padding: 10px 20px;
+font-weight: bold;}
+
+
+ul li{
+    display: inline;
+}
+ul li a{
+  
+    align-items: center;
+    text-decoration: none;
+    border: 1 px solid black;
+    padding: 5px 20px;
+}
+.btn{ border-radius: 20px;
+  gap: 60px;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 60px;
+    background: white;
+    font-weight: bold;
+   
+}
+.dropdown{
+    display: none;
+    position:absolute;
+min-width: 100px;
+overflow: hidden;
+z-index: 1;
+}
+.dropdown p1{color: black;
+    display: block;
+
+}
+.botton:hover .dropdown{display:block;}
+
+
+.speed{
+ color: red;
+}
+
+
+.box2{
+    display: flex;
+    
+    margin-top: 40px;
+    margin-left: 30px;
+   
+}
+.name{
+    color: black;
+    font-size: 40px;
+font-weight: bold; 
+
+
+}
+.studio{
+    color: grey;
+}
+.btn2{display: flex;
+column-gap: 20px;
+}
+.btn2{display: flex;
+gap:10px;}
+
+.hire{ 
+    background: blue;
+   width: 100px;
+   color: white;
+   border-radius: 30px;
+   height: 40px;
+
+}
+.arrow{
+    height: 40px;
+   
+    width: 20px;
+  
+  
+}
+.socialmedia{
+    height:20px;
+    margin-top: 60px;
+    width: 80;
+    display: flex;
+ 
+column-gap: 30px;
+}
+arrow1{
+   
+    position: absolute; 
+    bottom:2200px;
+    
+}
+
+.right{
+    display: flex;
+   
+    justify-content:flex-start; 
+
+}
+.image2{
+  
+    height:500px;
+width: 500px;
+}
+.project{display: flex;
+   
+   flex-direction: column;
+   align-items: center;
+   position: absolute ;
+   
+    right:550px;
+    background-color:white;
+  width: 170px;
+    height: 120px;
+    border-radius: 20px;
+}
+.num{
+  font-weight: bold; 
+  font-size: 16px;
+}
+.ui{
+    display: flex;
+    position: absolute;
+    left:1150px;
+    bottom: 400px;
+    width:140px;
+    padding: 10px;
+        background-color: white;
+}
+.searchbtn{
+    width: 160px;
+    display: flex;
+    background: white;
+    position: absolute;
+    left:1200px;
+   column-gap:15px;
+}
