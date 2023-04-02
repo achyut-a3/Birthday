@@ -1,86 +1,44 @@
-
-.main{
+.mainbox{
     display: flex;
-    background: purple;
+   background-color:#f3e2e5;
  height: 100%;
- padding: 50px 40px;
- 
+ padding: 50px 40px; 
 }
 .box{
    width: 100%;
+   border: 1px solid white;
     border-radius: 20px;
-
- background-color: rgb(249, 246, 241); 
+ background-color: rgb(250, 247, 247); 
 justify-content: space-between;
-
-
- 
 }
-.navsection{
-    display: flex;
-    margin-top: 10px;
-    justify-content: space-between;
-    align-items: center;
+.box2{padding: 30px ;
 }
-.image1{
-    float:left; 
-   margin-left:30px ;
-padding: 0;}
-.nav{padding: 10px 20px;
-font-weight: bold;}
+.left{margin-top: 30px;
+    width: 100%;
+   margin-right: 30px;
+}
+.sunshine {
 
-
-ul li{
-    display: inline;
-}
-ul li a{
-  
-    align-items: center;
-    text-decoration: none;
-    border: 1 px solid black;
-    padding: 5px 20px;
-}
-.btn{ border-radius: 20px;
-  gap: 60px;
     width: 120px;
-    height: 40px;
-    margin-top: 20px;
-    margin-right: 60px;
-    background: white;
-    font-weight: bold;
-   
+    height: 120px;
+    position: absolute;
+    left: 300px;
+    top: 220px;
+  
 }
-.dropdown{
-    display: none;
-    position:absolute;
-min-width: 100px;
-overflow: hidden;
-z-index: 1;
-}
-.dropdown p1{color: black;
-    display: block;
-
-}
-.botton:hover .dropdown{display:block;}
-
 
 .speed{
  color: red;
 }
 
 
-.box2{
-    display: flex;
-    
-    margin-top: 40px;
-    margin-left: 30px;
-   
-}
+
 .name{
+    position: relative;
     color: black;
     font-size: 40px;
 font-weight: bold; 
-
+z-index: 1;
 
 }
 .studio{
@@ -103,7 +61,7 @@ gap:10px;}
 .arrow{
     height: 40px;
    
-    width: 20px;
+    width: 30px;
   
   
 }
@@ -123,26 +81,28 @@ arrow1{
 }
 
 .right{
-    display: flex;
+ 
    
     justify-content:flex-start; 
 
 }
 .image2{
-  
+  position: absolute;
+ bottom: 7px;
+ top:100px;
     height:500px;
+    left: 600px;
 width: 500px;
 }
-.project{display: flex;
+.project{
    
-   flex-direction: column;
    align-items: center;
    position: absolute ;
-   
-    right:550px;
-    background-color:white;
+  background-color:white;
   width: 170px;
     height: 120px;
+    left: 600px;
+    top:200px;
     border-radius: 20px;
 }
 .num{
@@ -152,17 +112,23 @@ width: 500px;
 .ui{
     display: flex;
     position: absolute;
-    left:1150px;
-    bottom: 400px;
+    left:900px;
+    bottom: 500px;
     width:140px;
     padding: 10px;
         background-color: white;
 }
 .searchbtn{
-    width: 160px;
+    width: 140px;
     display: flex;
     background: white;
     position: absolute;
-    left:1200px;
+    top: 200px;
+    left:1000px;
    column-gap:15px;
+}
+
+#name {
+width: 150px;
+border: none;
 }

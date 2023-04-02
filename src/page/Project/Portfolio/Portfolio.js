@@ -5,23 +5,24 @@ import "./Portfolio.css";
 
 const Portfolio = () => {
   return (
-    <div className="main">
+    <div className="mainbox">
       <div className="box container ">
-        <div className="box2 ">
-          <Header />
+        <Header />
+        <div className="row box2 ">
           <div className="left col-4">
             <p className="speed">
               <img
-                src={"Image/emoji.jpg"}
+                src={"Images/emoji.jpg"}
                 alt="emoji"
                 height="20px"
-                width="15px"
+                width="20px"
               ></img>
               <br />
               SPEED UP <br />
               COMMUNICATION
             </p>
             <br />
+            <img className="sunshine" src="Images/sunshine.png" alt="sun"></img>
             <p className="name">Hi I'm Samrat</p>
 
             <p className="studio">
@@ -37,7 +38,7 @@ const Portfolio = () => {
             </div>
             <div className="socialmedia">
               <img
-                src={"Images/insta.png"}
+                src={"Images/instagram.png"}
                 alt="insta"
                 width="50px"
                 height="30px"
@@ -49,12 +50,13 @@ const Portfolio = () => {
                 height="30px"
               ></img>
               <img
-                src={"Images/facebook.png"}
+                src={"Images/fb.png"}
                 alt="facebook"
                 width="50px"
                 height="30px"
               ></img>
             </div>
+
             <br />
             <br />
             <img
@@ -70,13 +72,14 @@ const Portfolio = () => {
               <img
                 src={"Images/emoji.jpg"}
                 alt="emoji"
-                height="20px"
-                width="15px"
+                height="2px"
+                width="20px"
               ></img>
               <span>Great Project</span>
               <p className="num">212+ Done </p>
               <p>2.1% vs last 7 days</p>
             </div>
+            <img className="image2" src={"Images/photo.jpg"} alt="man"></img>
             <p className="ui">UI Designer</p>
             <div className="searchbtn">
               <img
@@ -85,13 +88,8 @@ const Portfolio = () => {
                 height="20px"
                 width="20px"
               ></img>
-              User Search
+              <input type="text" id="name" placeholder="Use Research"></input>
             </div>
-            <img
-              className="image2"
-              src={"Images/ronaldo.jpg"}
-              alt="ronaldo"
-            ></img>
           </div>
         </div>
       </div>

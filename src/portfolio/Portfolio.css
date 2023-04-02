@@ -1,0 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+}
+.Main{
+    background-color: rgba(249, 249, 249, 0.473);
+    height: 100%;
+}

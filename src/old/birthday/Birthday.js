@@ -19,7 +19,13 @@ function Birthday() {
           <h2>{clear.length} Birthday Today</h2>
           {clear.map((aa) => (
             <div className="r1">
-              <img src={aa.img} width="100px" height="100"></img>
+              <img
+                className="dog image"
+                src={aa.img}
+                alt="dog"
+                width="100px"
+                height="100"
+              ></img>
               <div className="info">
                 <h2> {aa.name}</h2>
                 <p>{aa.age}</p>

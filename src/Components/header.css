@@ -1,0 +1,44 @@
+
+
+.navsection {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image1 {
+    float: left;
+    margin-left: 30px;
+    padding: 0;
+}
+
+.nav {
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+
+    align-items: center;
+    text-decoration: none;
+    border: 1 px solid black;
+    padding: 5px 20px;
+}
+
+.btn {
+    border-radius: 20px;
+    gap: 60px;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 60px;
+    background: white;
+    font-weight: bold;
+
+}
