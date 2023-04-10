@@ -7,7 +7,9 @@ const Project = () => {
     <div className="screen">
       <div className="miniscreen">
         <Header />
-        <Birthday />
+        <div className="birth">
+          <Birthday />
+        </div>
       </div>
     </div>
   );

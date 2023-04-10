@@ -1,0 +1,44 @@
+
+   .fullscreen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+margin-bottom: 80px;
+
+
+   }
+   .title-underline {
+       background:orange;
+       width: 7rem;
+       height: 0.25rem;
+       margin: 0 auto;
+       margin-bottom: 30px;
+       margin-top: 1rem;
+  }
+
+h2{
+    display:flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.navsections {
+        display: flex;
+        margin-top: 10px;
+        gap: 30px;
+        align-items: center;
+      
+    }
+
+.butn{
+    background-color: orange;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+  width: 100px;
+ 
+border: transparent;
+    
+}

@@ -1,10 +1,11 @@
 import React from "react";
-import AppRoutes from "./Pages/Approutes/AppRoutes";
+
+import SignupForm from "./Signupform";
 
 const App = () => {
   return (
     <>
-      <AppRoutes />
+      <SignupForm />
     </>
   );
 };

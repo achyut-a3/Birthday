@@ -1,0 +1,49 @@
+.navgation{
+    background-color: #f8fafc;
+
+}
+.image{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.right{
+    display:flex;
+   flex-wrap: wrap;
+ column-gap: 90px;
+padding:90px;
+
+
+}
+.header{
+    padding: 20px;
+}
+.navsection{
+    display:flex;
+    justify-content: space-between;
+margin-top: 10px ;
+
+}
+
+.price{
+    background: orange;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    color: white;
+    margin-right: 20px;
+ padding: 3px 20px;
+  
+    width: 80px;
+    height: 30px;
+}
+.r1{
+    margin-bottom: 30px;
+    background-color: white;
+    height: 100%;
+}
+.intro{
+    line-height: 35px;
+    color: #64748b;
+  
+    font-size: 16px;
+}
